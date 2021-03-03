@@ -1,0 +1,13 @@
+.Big{
+    position: fixed;
+    
+    top:50vh;
+    left:50vw;
+    
+    left:41vw;
+    border: 1px solid black;
+}
+.Big img{
+    border-radius: 50%;
+}
+

@@ -1,0 +1,102 @@
+:root {
+  --color: #9fa4c4;
+  --bgcolor: linear-gradient(315deg, #9fa4c4 0%, #9e768f 74%);
+}
+
+.list-box {
+  width: fit-content;
+  border: 2px solid;
+  display: flex;
+  justify-content: center;
+}
+/********Filter******* */
+.Filter,
+.heading {
+  margin-top: 1rem;
+  margin-left: 4rem;
+  display: flex;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 2%;
+  align-items: center;
+  box-shadow: 0px 1px 2px rgb(0 0 0 / 6%), 0px 1px 3px rgb(0 0 0 / 10%);
+  border: 2px solid #e2e8f0;
+  width: 65%;
+}
+.Filter img,
+.search-box img,
+.next img,
+.prev img {
+  height: 24px;
+}
+/* ****************** */
+.in-filter {
+  display: inline-block;
+  margin: auto;
+  margin-left: 2rem;
+}
+
+.in-inner p,
+.search-box,
+.next p,
+.prev p {
+  color: darkcyan;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.in-inner p {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 5px;
+}
+.heading {
+  display: flex;
+  padding: 1%;
+  width: 67.5%;
+}
+
+.heading h2,
+.Filter h2,
+.next p,
+.prev p {
+  margin: 0px;
+}
+form {
+  margin-left: 4.5%;
+}
+/* ******button******** */
+.scroll-button {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.next,
+.prev {
+  margin-top: 2%;
+  padding: 1rem;
+}
+.next img,
+.prev img {
+  margin-left: 2%;
+}
+.align-item {
+  width: 40%;
+  display: flex;
+}
+.scroll-button {
+  justify-content: left;
+  width: 45%;
+  align-items: center;
+  padding: 1rem;
+  margin: auto;
+}
+@media screen and (max-width: 967px) {
+  .scroll-button {
+    width: 80%;
+    align-items: center;
+    padding: 1rem;
+    margin: auto;
+    justify-content: left;
+  }
+}
